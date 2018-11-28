@@ -19,13 +19,18 @@ fn bindgen_test_layout_CUipcMemHandle_st() {
     assert_eq!(::std::mem::align_of::<CUipcMemHandle_st>(), 1usize);
 }
 #[test]
-fn bindgen_test_layout_CUstreamBatchMemOpParams_union_CUstreamMemOpWaitValueParams_st__bindgen_ty_1() {
+fn bindgen_test_layout_CUstreamBatchMemOpParams_union_CUstreamMemOpWaitValueParams_st__bindgen_ty_1(
+) {
     assert_eq!(
-        ::std::mem::size_of::<CUstreamBatchMemOpParams_union_CUstreamMemOpWaitValueParams_st__bindgen_ty_1>(),
+        ::std::mem::size_of::<
+            CUstreamBatchMemOpParams_union_CUstreamMemOpWaitValueParams_st__bindgen_ty_1,
+        >(),
         8usize
     );
     assert_eq!(
-        ::std::mem::align_of::<CUstreamBatchMemOpParams_union_CUstreamMemOpWaitValueParams_st__bindgen_ty_1>(),
+        ::std::mem::align_of::<
+            CUstreamBatchMemOpParams_union_CUstreamMemOpWaitValueParams_st__bindgen_ty_1,
+        >(),
         8usize
     );
 }
@@ -41,13 +46,18 @@ fn bindgen_test_layout_CUstreamBatchMemOpParams_union_CUstreamMemOpWaitValuePara
     );
 }
 #[test]
-fn bindgen_test_layout_CUstreamBatchMemOpParams_union_CUstreamMemOpWriteValueParams_st__bindgen_ty_1() {
+fn bindgen_test_layout_CUstreamBatchMemOpParams_union_CUstreamMemOpWriteValueParams_st__bindgen_ty_1(
+) {
     assert_eq!(
-        ::std::mem::size_of::<CUstreamBatchMemOpParams_union_CUstreamMemOpWriteValueParams_st__bindgen_ty_1>(),
+        ::std::mem::size_of::<
+            CUstreamBatchMemOpParams_union_CUstreamMemOpWriteValueParams_st__bindgen_ty_1,
+        >(),
         8usize
     );
     assert_eq!(
-        ::std::mem::align_of::<CUstreamBatchMemOpParams_union_CUstreamMemOpWriteValueParams_st__bindgen_ty_1>(),
+        ::std::mem::align_of::<
+            CUstreamBatchMemOpParams_union_CUstreamMemOpWriteValueParams_st__bindgen_ty_1,
+        >(),
         8usize
     );
 }
@@ -65,18 +75,27 @@ fn bindgen_test_layout_CUstreamBatchMemOpParams_union_CUstreamMemOpWriteValuePar
 #[test]
 fn bindgen_test_layout_CUstreamBatchMemOpParams_union_CUstreamMemOpFlushRemoteWritesParams_st() {
     assert_eq!(
-        ::std::mem::size_of::<CUstreamBatchMemOpParams_union_CUstreamMemOpFlushRemoteWritesParams_st>(),
+        ::std::mem::size_of::<CUstreamBatchMemOpParams_union_CUstreamMemOpFlushRemoteWritesParams_st>(
+        ),
         8usize
     );
     assert_eq!(
-        ::std::mem::align_of::<CUstreamBatchMemOpParams_union_CUstreamMemOpFlushRemoteWritesParams_st>(),
+        ::std::mem::align_of::<
+            CUstreamBatchMemOpParams_union_CUstreamMemOpFlushRemoteWritesParams_st,
+        >(),
         4usize
     );
 }
 #[test]
 fn bindgen_test_layout_CUstreamBatchMemOpParams_union() {
-    assert_eq!(::std::mem::size_of::<CUstreamBatchMemOpParams_union>(), 48usize);
-    assert_eq!(::std::mem::align_of::<CUstreamBatchMemOpParams_union>(), 8usize);
+    assert_eq!(
+        ::std::mem::size_of::<CUstreamBatchMemOpParams_union>(),
+        48usize
+    );
+    assert_eq!(
+        ::std::mem::align_of::<CUstreamBatchMemOpParams_union>(),
+        8usize
+    );
 }
 #[test]
 fn bindgen_test_layout_CUdevprop_st() {
@@ -165,8 +184,14 @@ fn bindgen_test_layout_CUDA_RESOURCE_DESC_st__bindgen_ty_1__bindgen_ty_5() {
 }
 #[test]
 fn bindgen_test_layout_CUDA_RESOURCE_DESC_st__bindgen_ty_1() {
-    assert_eq!(::std::mem::size_of::<CUDA_RESOURCE_DESC_st__bindgen_ty_1>(), 128usize);
-    assert_eq!(::std::mem::align_of::<CUDA_RESOURCE_DESC_st__bindgen_ty_1>(), 8usize);
+    assert_eq!(
+        ::std::mem::size_of::<CUDA_RESOURCE_DESC_st__bindgen_ty_1>(),
+        128usize
+    );
+    assert_eq!(
+        ::std::mem::align_of::<CUDA_RESOURCE_DESC_st__bindgen_ty_1>(),
+        8usize
+    );
 }
 #[test]
 fn bindgen_test_layout_CUDA_RESOURCE_DESC_st() {
@@ -180,11 +205,20 @@ fn bindgen_test_layout_CUDA_TEXTURE_DESC_st() {
 }
 #[test]
 fn bindgen_test_layout_CUDA_RESOURCE_VIEW_DESC_st() {
-    assert_eq!(::std::mem::size_of::<CUDA_RESOURCE_VIEW_DESC_st>(), 112usize);
+    assert_eq!(
+        ::std::mem::size_of::<CUDA_RESOURCE_VIEW_DESC_st>(),
+        112usize
+    );
     assert_eq!(::std::mem::align_of::<CUDA_RESOURCE_VIEW_DESC_st>(), 8usize);
 }
 #[test]
 fn bindgen_test_layout_CUDA_POINTER_ATTRIBUTE_P2P_TOKENS_st() {
-    assert_eq!(::std::mem::size_of::<CUDA_POINTER_ATTRIBUTE_P2P_TOKENS_st>(), 16usize);
-    assert_eq!(::std::mem::align_of::<CUDA_POINTER_ATTRIBUTE_P2P_TOKENS_st>(), 8usize);
+    assert_eq!(
+        ::std::mem::size_of::<CUDA_POINTER_ATTRIBUTE_P2P_TOKENS_st>(),
+        16usize
+    );
+    assert_eq!(
+        ::std::mem::align_of::<CUDA_POINTER_ATTRIBUTE_P2P_TOKENS_st>(),
+        8usize
+    );
 }

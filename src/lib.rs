@@ -1,6 +1,7 @@
 pub mod cublas;
 pub mod cuda;
 pub mod cudart;
+// pub mod cudnn;
 pub mod vector_types;
 
 #[test]
